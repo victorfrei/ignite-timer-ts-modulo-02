@@ -1,7 +1,7 @@
 import { ReactNode, createContext, useEffect, useReducer, useState } from "react";
 import { v4 } from "uuid";
 import { Cycle, cyclesReducer } from "../reducers/cycles/reducer";
-import { ActionTypes, addNewCycleAction, interruptCurrentCycleAction, markCurrentCycleAsFinishedAction } from "../reducers/cycles/actions";
+import { addNewCycleAction, interruptCurrentCycleAction, markCurrentCycleAsFinishedAction } from "../reducers/cycles/actions";
 import { differenceInSeconds } from "date-fns";
 
 
